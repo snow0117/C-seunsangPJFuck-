@@ -43,7 +43,7 @@ int main()
 	auto print = [](int mark_[], int arrow_) {
 		for (int i = 0; i < 16; i++)
 		{
-			if (arrow_ == i) cout << "▷";
+			if (arrow_ == i) cout << "▶";
 			else cout << "  ";
 
 			cout << bitset<4>(i) << '(' << i << ") : ";
